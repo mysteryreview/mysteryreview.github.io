@@ -1,7 +1,7 @@
 # Site settings
 title: Murder Mystery Review
 SEOTitle: Murder Mystery Review
-header-img: img/header-im.jpg
+header-img: /img/header-im.jpg
 email: murdermysteryreview@outlook.com
 description: "开源、非商业、力求言之有物的推理本测评"
 keyword: "剧本杀, 剧本杀测评, 推理, 还原, 刑侦, 解谜"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/mysteryreview/mysteryreview.github.io.git" # yo
 # Sidebar settings
 sidebar: true	# whether or not using Sidebar.
 sidebar-about-description: "开源、非商业、力求言之有物的推理本测评"
-sidebar-avatar: /img/about-BY-gentle.jpg	# use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: 	# use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
