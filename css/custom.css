@@ -1,14 +1,3 @@
-@media (min-width: 1200px) {
-  .post-container,
-  .sidebar-container {
-    padding-right: 0%;
-  }
-}
-@media (min-width: 768px) {
-  .post-container {
-    padding-right: 0%;
-  }
-}
 .sidebar-container {
   color: #bfbfbf;
   font-size: 14px;
