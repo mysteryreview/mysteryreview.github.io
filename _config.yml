@@ -1,0 +1,61 @@
+# Site settings
+title: Murder Mystery Review
+SEOTitle: Murder Mystery Review
+header-img: img/config-img.jpg
+description: "开源、非商业、力求言之有物的推理本测评"
+keyword: "剧本杀, 剧本杀测评, 推理, 还原, 刑侦, 解谜"
+url: "https://mysteryreview.github.io"	                                     # your host, for absolute URL
+github_repo: "https://github.com/mysteryreview/mysteryreview.github.io.git"  # your code repository
+
+# Markdown settings
+markdown: kramdown           # document: http://jekyllrb.com/docs/configuration/#kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                 # use Github Flavored Markdown !important
+
+# Build settings
+permalink: pretty            # document: http://jekyllcn.com/docs/permalinks/
+paginate: 10                 # the maximum number of Posts displayed per-page
+exclude: ["README.md"]
+
+# Sidebar settings
+sidebar: true	                                                  # whether or not using Sidebar.
+sidebar-avatar: 	                                              # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "开源、非商业、力求言之有物的推理本测评"
+
+# Tags settings
+featured-tags: true                   # 是否使用首页标签
+featured-condition-size: 0            # 相同标签数量大于这个数，才会出现在首页
+
+# Friends settings
+friends: [
+    {
+        title: " ",
+        href: ""
+    }
+]
+
+# SNS settings
+RSS: true
+email: murdermysteryreview@outlook.com
+github_username: mysteryreview
+
+# Gems settings
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Gitalk settings
+gitalk:
+  enable: true                                       #是否开启 Gitalk 评论
+  clientID: f2c84e7629bb1                            #生成的 clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e12             #生成的 clientSecret
+  repo: mysteryreview.github.io                      #仓库名称
+  owner: mysteryreview                               #github 用户名
+  admin: mysteryreview
+  distractionFreeMode: true                          #是否启用阴影遮罩
+
+# Analytics settings
+ba_track_id:                          # Baidu Analytics
+ga_track_id: 'UA-0-1'                 # Google Analytics Format: UA-xxxxxx-xx
+ga_domain: auto                       # 默认 auto
+
