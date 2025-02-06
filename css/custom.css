@@ -66,10 +66,12 @@ a {
 }
 a:hover,
 a:focus {
+  outline: none;
   color: #666666;
 }
 a img:hover,
 a img:focus {
+  outline: none;
   cursor: zoom-in;
 }
 article {
@@ -151,6 +153,7 @@ pre code {
 }
 .post-container a:hover,
 .post-container a:focus {
+  outline: none;
   color: #666666;
 }
 .post-container h1,
@@ -342,6 +345,7 @@ pre code {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
+    outline: none;
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
@@ -350,6 +354,7 @@ pre code {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
+    outline: none;
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a:active {
@@ -385,6 +390,7 @@ pre code {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
+    outline: none;
     color: #666666;
   }
   .navbar-custom.is-fixed .nav li a {
@@ -392,6 +398,7 @@ pre code {
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
+    outline: none;
     color: #666666;
   }
   .navbar-custom.is-visible {
@@ -509,6 +516,7 @@ pre code {
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
+  outline: none;
   text-decoration: none;
   color: #666666;
 }
@@ -538,6 +546,7 @@ pre code {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
+  outline: none;
   color: #666666;
   text-decoration: underline;
 }
@@ -600,6 +609,7 @@ footer .copyright a {
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
+  outline: none;
   color: #666666;
 }
 .floating-label-form-group {
@@ -668,6 +678,7 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
+  outline: none;
   background-color: #666666;
   border: 1px solid #666666;
   color: white;
@@ -866,7 +877,10 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
-.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:focus{
+  outline: none;
+  background-color: inherit;
+}
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
 }
