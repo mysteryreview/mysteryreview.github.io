@@ -76,11 +76,7 @@ a img:focus {
 }
 article {
   overflow: auto;
-}
-article::-webkit-scrollbar{
-  width: 0;
-  height: 0;
-  background-color: transparent;
+  height: 2000px;
 }
 blockquote {
   color: #808080;
