@@ -1,0 +1,59 @@
+---
+layout: page
+title: 关于本站
+description: Welcome to Murder Mystery Review
+header-img: ""
+---
+
+<!-- Page Content -->
+<div class="post-container">
+    <p align="center">欢迎来到</p>
+    <h3 align="center"><strong>Murder Mystery Review</strong></h3>
+    <p align="center">本站专注于推理类剧本杀测评</p>
+    <p align="center">我们承诺</p>
+    <p align="center">为客户提供<strong>开源、非商业、言之有物</strong>的推理本测评</p>
+    <p align="center">我们深知</p>
+    <p align="center">喊出响亮的口号很容易，如实做到却很难</p>
+    <p align="center">以下,便是我们为践行承诺而作出的具体举措：</p>
+    
+    <h3 align="center">「开源」</h3>
+    <p align="center">本站托管于全球最大开源社区<a href="https://github.com">GitHub</a></p>
+    <p align="center">本站全部网站源码基于 MIT 协议开源</p>
+    <p align="center">本站全部评测文本基于 Creative Commons 协议开源</p>
+    
+    <h3 align="center">「非商业」</h3>
+    <p align="center">本站全部页面无任何站外广告</p>
+    <p align="center">本站所有测评观点皆基于独立研究，不接受任何商业赞助</p>
+    <p align="center">本站无需登录即可阅读全部内容，绝不收集访客数据做引流推广</p>
+    
+    <h3 align="center">「言之有物」</h3>
+    <p align="center">本站对言之有物的理解是：</p>
+    <p align="center" style="text-decoration: underline;">
+        分析一部作品，无论结论是好是坏，都必须给出充分依据，切忌主观臆断</p>
+    <p align="center">故本站测评内容，多为千字以上长文</p>
+    
+    <hr>
+    <p align="center">如今网络四通八达，能在浩若繁星的站点中关注到本站，也算是远道而来的贵客。</p>
+    <p align="center">相逢即是缘，我们衷心希望本站的评测能为您提供宝贵的参考价值。</p>
+</div>
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '{{site.gitalk.clientID}}',
+        clientSecret: '{{site.gitalk.clientSecret}}',
+        repo: '{{site.gitalk.repo}}',
+        owner: '{{site.gitalk.owner}}',
+        admin: ['{{site.gitalk.admin}}'],
+        distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+        id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+
