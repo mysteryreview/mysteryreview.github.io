@@ -45,6 +45,7 @@ body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 　overflow-scrolling: touch;
+  overflow-y: hidden;
 }
 p {
   margin: 30px 0;
