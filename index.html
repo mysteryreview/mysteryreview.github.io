@@ -10,7 +10,7 @@ description: 诚实测评推理类剧本杀
         {% if post.subtitle %}
         <h3 class="post-subtitle">{{ post.subtitle }}</h3>
         {% endif %}
-        <div class="post-content-preview" style="white-space: pre-line">{{ post.content | strip_html | truncate:120 }}</div>
+        <div class="post-content-preview">{{ post.content | strip_html | truncate:120 }}</div>
     </a>
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
