@@ -76,6 +76,8 @@ a img:focus {
 }
 article {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+　overflow-scrolling: touch;
 }
 blockquote {
   color: #808080;
