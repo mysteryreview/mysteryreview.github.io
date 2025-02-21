@@ -42,10 +42,9 @@ body {
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
-  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-　overflow-scrolling: touch;
-  overflow-y: hidden;
+  overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 p {
   margin: 30px 0;
