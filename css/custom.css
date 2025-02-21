@@ -43,6 +43,8 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+　overflow-scrolling: touch;
 }
 p {
   margin: 30px 0;
@@ -76,8 +78,6 @@ a img:focus {
 }
 article {
   overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-　overflow-scrolling: touch;
 }
 blockquote {
   color: #808080;
