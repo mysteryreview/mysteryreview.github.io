@@ -15,7 +15,7 @@ kramdown:
 
 # Build settings
 permalink: pretty            # document: http://jekyllcn.com/docs/permalinks/
-paginate: 10                 # the maximum number of Posts displayed per-page
+paginate: 20                 # the maximum number of Posts displayed per-page
 exclude: ["README.md"]
 
 # Sidebar settings
@@ -25,7 +25,7 @@ sidebar-about-description: "开源、非商业、力求言之有物的推理本�
 
 # Tags settings
 featured-tags: true                   # 是否使用首页标签
-featured-condition-size: 0            # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 1            # 相同标签数量大于这个数，才会出现在首页
 
 # Friends settings
 friends: [
