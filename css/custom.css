@@ -75,7 +75,7 @@ a img:focus {
   cursor: zoom-in;
 }
 article {
-  overflow: auto;
+  overflow: scroll;
   scrollbar-width: none;
 }
 article::-webkit-scrollbar {
