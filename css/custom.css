@@ -500,9 +500,9 @@ pre code {
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-style: italic;
+  font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
 }
 .intro-header .post-heading .meta a {
   color: white;
