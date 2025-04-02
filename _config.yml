@@ -21,7 +21,7 @@ exclude: ["README.md"]
 # Sidebar settings
 sidebar: true	                                                  # whether or not using Sidebar.
 sidebar-avatar: 	                                              # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-about-description: "开源、非商业、力求言之有物的推理本测评"
+sidebar-about-description: ""
 
 # Tags settings
 featured-tags: true                   # 是否使用首页标签
