@@ -53,9 +53,3 @@ gitalk:
   owner: mysteryreview                               #github 用户名
   admin: mysteryreview
   distractionFreeMode: true                          #是否启用阴影遮罩
-
-# Analytics settings
-ba_track_id:                          # Baidu Analytics
-ga_track_id: 'UA-0-1'                 # Google Analytics Format: UA-xxxxxx-xx
-ga_domain: auto                       # 默认 auto
-
