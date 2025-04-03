@@ -1,11 +1,13 @@
 # Site settings
-title: Mystery Review
-SEOTitle: Mystery Review 诚实点评推理本
-header-img: img/config-img.jpg
-description: "开源、非商业、力求言之有物的推理本测评"
-keyword: "剧本杀, 剧本杀测评, 推理, 还原, 刑侦, 解谜"
-url: "https://mysteryreview.github.io"	                                     # your host, for absolute URL
-github_repo: "https://github.com/mysteryreview/mysteryreview.github.io.git"  # your code repository
+title:       Mystery Review
+SEOTitle:    Mystery Review 诚实点评推理本
+header-img:  ""
+description: 开源、非商业、力求言之有物的推理本测评
+keyword:     剧本杀, 剧本杀测评, 推理, 还原, 刑侦, 解谜
+RSS:         true
+url:         "https://mysteryreview.github.io"	                                     
+github_repo: "https://github.com/mysteryreview/mysteryreview.github.io.git"  
+github_username: mysteryreview
 
 # Markdown settings
 markdown: kramdown           # document: http://jekyllrb.com/docs/configuration/#kramdown
@@ -17,11 +19,6 @@ kramdown:
 permalink: pretty            # document: http://jekyllcn.com/docs/permalinks/
 paginate: 20                 # the maximum number of Posts displayed per-page
 exclude: ["README.md"]
-
-# SNS settings
-RSS: true
-email: murdermysteryreview@outlook.com
-github_username: mysteryreview
 
 # Gems settings
 # from PR#40, to support local preview for Jekyll 3.0
