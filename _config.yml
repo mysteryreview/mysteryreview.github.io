@@ -1,31 +1,21 @@
-# Site settings
+# 站点配置
 title:       Mystery Review
 SEOTitle:    Mystery Review 诚实点评推理本
 header-img:  ""
 description: 开源、非商业、力求言之有物的推理本测评
 keyword:     剧本杀, 剧本杀测评, 推理, 还原, 刑侦, 解谜
 RSS:         true
-url:         "https://mysteryreview.github.io"	                                     
-github_repo: "https://github.com/mysteryreview/mysteryreview.github.io.git"  
+url:         https://mysteryreview.github.io
+github_repo: https://github.com/mysteryreview/mysteryreview.github.io.git
 github_username: mysteryreview
 
-# Markdown settings
-markdown: kramdown           # document: http://jekyllrb.com/docs/configuration/#kramdown
+# 页面配置
+permalink: pretty             # 详见: http://jekyllcn.com/docs/permalinks/
+paginate:  20                 # 单页文章数
+exclude:   ["README.md"]
+
+# 文本配置
+markdown: kramdown            # 详见: http://jekyllrb.com/docs/configuration/#kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                 # use Github Flavored Markdown !important
-
-# Build settings
-permalink: pretty            # document: http://jekyllcn.com/docs/permalinks/
-paginate: 20                 # the maximum number of Posts displayed per-page
-exclude: ["README.md"]
-
-# Gitalk settings
-gitalk:
-  enable: true                                      
-  clientID: Ov23liX9SHz8xkyo5M4j                            
-  clientSecret: b94c223a0d68c5447e59db4c4bcb7bbe9c127a22             
-  repo: mysteryreview.github.io                      #仓库名称
-  owner: mysteryreview                               #github 用户名
-  admin: mysteryreview
-  distractionFreeMode: true                          #是否启用阴影遮罩
+  input: GFM 
