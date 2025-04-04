@@ -20,10 +20,6 @@ permalink: pretty            # document: http://jekyllcn.com/docs/permalinks/
 paginate: 20                 # the maximum number of Posts displayed per-page
 exclude: ["README.md"]
 
-# Gems settings
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
 # Gitalk settings
 gitalk:
   enable: true                                      
