@@ -26,9 +26,9 @@ gems: [jekyll-paginate]
 
 # Gitalk settings
 gitalk:
-  enable: true                                       #是否开启 Gitalk 评论
-  clientID: f2c84e7629bb1                            #生成的 clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e12             #生成的 clientSecret
+  enable: true                                      
+  clientID: Ov23liX9SHz8xkyo5M4j                            
+  clientSecret: b94c223a0d68c5447e59db4c4bcb7bbe9c127a22             
   repo: mysteryreview.github.io                      #仓库名称
   owner: mysteryreview                               #github 用户名
   admin: mysteryreview
